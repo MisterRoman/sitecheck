@@ -18,21 +18,6 @@ exit;
 $site=checkchars($site);
 
 
-/*
-if (preg_match("/[^(\w)|(А-Яа-я-)|(\s)]/",$site)) {
-$site = '';
-exit;
-}
-
-
-
-// Фильтрация опасных слов<br>
-
-if (preg_match("/script|http|&lt;|&gt;|&lt;|&gt;|SELECT|UNION|UPDATE|exe|exec|INSERT|tmp/i",$site)) {
-$site = '';
-exit;
-}
-*/
 
 
 if (strpos($site,'http')===false) {
